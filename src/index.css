@@ -446,6 +446,7 @@ h1 {
   }
 }
 
+
 @media screen and (max-width: 826px) {
   .desktop-order {
     display: none !important;
@@ -492,6 +493,9 @@ h1 {
   }
   .logoImg{
     margin-left: 0;
+  }
+  .modal .positioner {
+    right: 6rem;
   }
 }
 
@@ -872,6 +876,11 @@ main.container {
   }
   .cta-cards {
     max-width: 80%;
+  }
+  .modal-graphic button {
+    margin: 1rem 0;
+    padding: 0rem 4rem;
+    margin-top: 0rem;
   }
 }
 .cost  h3 span,
