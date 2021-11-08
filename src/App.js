@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { RiEqualizerFill } from 'react-icons/ri';
 import { carsData } from './lib/carsData';
-import { fuels } from './lib/fules';
+import { fuels } from './lib/fuels';
 import { ctaData } from './lib/ctaData';
 import { types } from './lib/types';
 import { companies } from './lib/companies';
@@ -18,11 +18,6 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <head>
-        <title>€x100km - Q Premium</title>
-        <meta name='description' content='Denis challenge' />
-        <link rel='icon' href='/favicon.ico' />
-      </head>
       <Header/>
       <header className='hero'>
         <HeroSection openModal={() => setShowModal(true)} ctaData={ctaData} />

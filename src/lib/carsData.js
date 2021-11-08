@@ -8,13 +8,13 @@ export const carsData = [
         kw: 110,
       },
       volume: '1395',
-      image: 'https://preview2.netcarshow.com/Volkswagen-Up-2013-1600-04.jpg',
+      image: 'https://cdn.miacar.it/thumbs/vehicle-gallery-800x560/cars/VOLKSWAGEN/UP/1_0_5p__eco_move_up__BMT/Nero___Bianco/4I0CW/1.png',
       fuel: 'GPL',
       costs: [
         {
           value: '3,85',
           extra: 'per le tue abitudini',
-          rating: 0.1,
+          rating: 0.18,
         },
       ],
     },
@@ -30,7 +30,7 @@ export const carsData = [
       image:
         'https://assets.whichcar.com.au/image/upload/s--DXPbYATM--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/v1/archive/whichcar/2018/05/16/-1/ford-fiesta-st-traking.jpg',
       fuel: 'GPL',
-      costs: [{ value: '4,96', rating: 0.15 }],
+      costs: [{ value: '4,96', rating: 0.18 }],
     },
     {
       name: 'HYUNDAY IONIQ',
@@ -65,8 +65,8 @@ export const carsData = [
       ],
     },
     {
-      name: 'TOYOTA Prius 4ª',
-      model: 'serie 1.8 AWD Lounge',
+      name: 'VOLKSWAGEN ECO UP!',
+      model: 'move 5 porte',
       type: 'Berlina',
       force: {
         cv: 150,
@@ -84,8 +84,8 @@ export const carsData = [
       ],
     },
     {
-      name: 'TOYOTA AYGO',
-      model: '1.0 VVT-i 72 CV 5p.',
+      name: 'VOLKSWAGEN ECO UP!',
+      model: 'move 5 porte',
       type: 'Berlina',
       force: {
         cv: 150,
@@ -93,7 +93,7 @@ export const carsData = [
       },
       volume: '1395',
       image:
-        'https://www.auto-data.net/images/f79/Toyota-Prius-IV-XW50-facelift-2019.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYgZG5y2afs55bRJJslnT6MRrfwy5RXPUVVJSn_sZBxrnUIaNdoQ65hZgpRdJ45eFjGg&usqp=CAU',
       fuel: 'BENZINA',
       costs: [
         {

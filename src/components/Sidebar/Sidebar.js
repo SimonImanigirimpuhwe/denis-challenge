@@ -37,14 +37,39 @@ const Sidebar = ({ fuels, types, companies }) => {
             <span>Alimentazione</span>
             <FaChevronDown />
           </h3>
-          {fuels.map((fuel) => (
-            <label key={fuel.value} htmlFor={fuel.text}>
-              <input name='fuel' type='radio' id={fuel.text} />
-              <span>
-                {fuel.text} {fuel.value && `(${fuel.value})`}
-              </span>
-            </label>
-          ))}
+          {fuels.map((fuel, index) => {
+            const getColor = () => {
+              if(fuel.value === 123) {
+                return "#D10209"
+              } else if (fuel.value === 21 || fuel.value === 5){
+                return "#008B39"
+              } else if (fuel.value === 71){
+                return "#6F6F6E"
+              } else if (fuel.value === 15){
+                return "#88B31A"
+              } else {
+                return "#333333"
+              }
+            }
+            const makeBold = () => {
+              if(fuel.value === 123 || 
+                fuel.value === 21 || 
+                fuel.value === 5 || 
+                fuel.value === 71 ||
+                fuel.value === 15
+                ) {
+                  return "bold"
+                }
+            }
+            return (
+              <label key={fuel.value} htmlFor={fuel.text}>
+                <input name='fuel' type='radio' id={fuel.text} checked={index=== 0}/>
+                <span>
+                  {fuel.text} {fuel.value && <small style={{color: getColor(), fontWeight: makeBold()}}>({fuel.value})</small>}
+                </span>
+              </label>
+            )
+          })}
         </div>
         <div className='type'>
           <h3>
@@ -55,7 +80,7 @@ const Sidebar = ({ fuels, types, companies }) => {
             {types.map((fuel, i) => (
               <li key={fuel.text + i}>
                 <label key={fuel.text + i + 1} htmlFor={fuel.text}>
-                  <input name='types' type='radio' id={fuel.text} />
+                  <input name='types' type='radio' id={fuel.text} checked={i=== 0}/>
                   <span>{fuel.text}</span>
                 </label>
               </li>
@@ -71,7 +96,7 @@ const Sidebar = ({ fuels, types, companies }) => {
             {companies.map((fuel, i) => (
               <li key={fuel.text + i}>
                 <label key={fuel.value} htmlFor={fuel.text}>
-                  <input name='companies' type='radio' id={fuel.text} />
+                  <input name='companies' type='radio' id={fuel.text} checked={i=== 0}/>
                   <span>{fuel.text}</span>
                 </label>
               </li>

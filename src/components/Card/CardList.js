@@ -106,7 +106,7 @@ const CarsList = ({ cars }) => {
                     style={{
                       color:
                         car.fuel === 'BENZINA'
-                          ? '#E20000'
+                          ? '#E20000' 
                           : car.fuel.includes('HYBRID')
                           ? '#009933'
                           : car.fuel === 'ELECTRICA'
@@ -128,6 +128,7 @@ const CarsList = ({ cars }) => {
           </div>
         </article>
       ))}
+      <button className="btn__cars">carica altre auto</button>
     </>
   );
 };

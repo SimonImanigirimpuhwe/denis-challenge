@@ -234,7 +234,7 @@ h1 {
   border-top-width: 8px;
 }
 
-.modal-graphic button,
+
 .hero__cta button {
   border: none;
   outline: none;
@@ -247,7 +247,21 @@ h1 {
   background-color: #fff;
   border-radius: 10px;
 }
-
+.modal-graphic button {
+  outline: none;
+  appearance: none;
+  margin: 1rem 0;
+  border-color: #CCCCCC !important;
+  border-width: 1px !important;
+  border-radius: 8px !important;
+  height: 56px;
+  padding: 0rem 9rem;
+  margin-top: 0rem;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color);
+}
 .date {
   color: #333333;
   display: flex;
@@ -276,6 +290,7 @@ h1 {
 
   .menu {
     font-size: 34px;
+    margin-right: 1rem;
   }
 
   .hero__higlight {
@@ -293,6 +308,9 @@ h1 {
   }
   .logoImg{
     margin-left: 0;
+  }
+  .btn__cars{
+    display: none;
   }
 }
 
@@ -606,7 +624,7 @@ main.container {
 .modal-graphic {
   border-radius: 10px;
   box-shadow: 0 0 25px #8d8d8d;
-  background-color: #bababa;
+  background-color: #EEEEEE;
   display: flex;
   margin: 2rem 0.5rem;
   flex-direction: column;
@@ -614,10 +632,7 @@ main.container {
   padding-top: 1rem;
 }
 
-.modal-graphic button {
-  color: #cccccc;
-  font-weight: 600;
-}
+
 
 .modal .cta-card {
   margin-top: 7rem;
@@ -636,10 +651,11 @@ main.container {
 
 .modal .cta-card:nth-child(odd) .positioner {
   transform: rotate(180deg);
+  top: -6.5rem;
 }
 
 .modal .cta-card:nth-child(even) .positioner {
-  top: -9.35rem;
+  top: -9.1rem;
 }
 
 @media screen and (max-width: 640px) {
@@ -846,6 +862,17 @@ main.container {
     margin-left: 0 !important
   }
 }
+@media screen and (max-width: 436px) {
+  .cta-card{
+    min-width: 6rem;
+  }
+  .cta-card span {
+    font-size: 12px;
+  }
+  .cta-cards {
+    max-width: 80%;
+  }
+}
 .cost  h3 span,
 .type h3 span,
 .fuel h3 span,
@@ -854,4 +881,16 @@ main.container {
 }
 .logoImg{
   margin-left: -21px;
+}
+.btn__cars{
+  border: none;
+  outline: none;
+  background-color: #FF5D27;
+  height: 64px;
+  width: 100%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
