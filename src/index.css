@@ -808,6 +808,7 @@ main.container {
   background-color: rgb(52, 52, 53);
   color: white;
   text-align: center;
+  margin-top: 50px;
 }
 
 .footer h2 {

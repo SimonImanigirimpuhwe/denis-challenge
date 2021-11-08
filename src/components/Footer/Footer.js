@@ -18,7 +18,7 @@ import {
           <ul className='socials'>
             <li className='each-li'>
               <a
-                href='https://github.com/mansurissa'
+                href='https://github.com/SimonImanigirimpuhwe'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -27,7 +27,7 @@ import {
             </li>
             <li className='each-li'>
               <a
-                href='https://www.linkedin.com/in/nsabimana-issa-1411ba1b3/'
+                href='https://github.com/SimonImanigirimpuhwe'
                 target='#blank'
                 rel='noreferrer'
               >
@@ -36,7 +36,7 @@ import {
             </li>
             <li className='each-li'>
               <a
-                href='https://twitter.com/Rwesamihigo'
+                href='https://github.com/SimonImanigirimpuhwe'
                 target='#blank'
                 rel='noreferrer'
               >
@@ -45,7 +45,7 @@ import {
             </li>{' '}
             <li className='each-li'>
               <a
-                href='https://twitter.com/Rwesamihigo'
+                href='https://github.com/SimonImanigirimpuhwe'
                 target='#blank'
                 rel='noreferrer'
               >
@@ -54,7 +54,7 @@ import {
             </li>
             <li className='each-li'>
               <a
-                href='https://www.linkedin.com/in/nsabimana-issa-1411ba1b3/'
+                href='https://github.com/SimonImanigirimpuhwe'
                 target='#blank'
                 rel='noreferrer'
               >
