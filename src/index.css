@@ -446,6 +446,13 @@ h1 {
   }
 }
 
+.footer {
+  padding: 2rem 4rem 4rem 4rem;
+  background-color: rgb(52, 52, 53);
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
 
 @media screen and (max-width: 826px) {
   .desktop-order {
@@ -494,6 +501,9 @@ h1 {
   }
   .logoImg{
     margin-left: 0;
+  }
+  .footer {
+    padding: 2rem 1rem 4rem 1rem;
   }
 }
 
@@ -805,13 +815,6 @@ main.container {
   margin: 0 0.3rem;
 }
 
-.footer {
-  padding: 2rem 1rem 4rem 1rem;
-  background-color: rgb(52, 52, 53);
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-}
 
 .footer h2 {
   font-weight: bold;
