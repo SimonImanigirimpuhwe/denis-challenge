@@ -78,10 +78,12 @@ const CarsList = ({ cars }) => {
                   color:
                     car.fuel === 'BENZINA'
                       ? '#E20000'
+                      : car.fuel.includes('HYBRID') && cost.line2
+                      ? '#88B31A'
                       : car.fuel.includes('HYBRID')
                       ? '#009933'
-                      : car.fuel === 'ELECTRICA'
-                      ? '#009EE3'
+                      :  car.fuel === 'ELECTRICA' && cost.line2
+                      ? '#95CFED' : car.fuel === 'ELECTRICA' ? '#009ee3'
                       : '#005999',
                 }}
               >
@@ -95,9 +97,12 @@ const CarsList = ({ cars }) => {
                       borderColor:
                         car.fuel === 'BENZINA'
                           ? '#E20000'
+                          : car.fuel.includes('HYBRID') && cost.line2
+                          ? '#88B31A'
                           : car.fuel.includes('HYBRID')
-                          ? '#009933'
-                          : car.fuel === 'ELECTRICA'
+                          ? '#009933' 
+                          :  car.fuel === 'ELECTRICA' && cost.line2
+                          ? '#95CFED': car.fuel === 'ELECTRICA'
                           ? '#009EE3'
                           : '#005999',
                     }}
@@ -108,9 +113,9 @@ const CarsList = ({ cars }) => {
                         car.fuel === 'BENZINA'
                           ? '#E20000' 
                           : car.fuel.includes('HYBRID')
-                          ? '#009933'
+                          ? '#88B31A'
                           : car.fuel === 'ELECTRICA'
-                          ? '#009EE3'
+                          ? '#95CFED'
                           : '#005999',
                     }}
                     className='filled'

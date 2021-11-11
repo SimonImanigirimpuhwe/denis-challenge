@@ -14,7 +14,7 @@ export const carsData = [
         {
           value: '3,85',
           extra: 'per le tue abitudini',
-          rating: 0.18,
+          rating: 0.15,
         },
       ],
     },
@@ -30,7 +30,7 @@ export const carsData = [
       image:
         'https://assets.whichcar.com.au/image/upload/s--DXPbYATM--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/v1/archive/whichcar/2018/05/16/-1/ford-fiesta-st-traking.jpg',
       fuel: 'GPL',
-      costs: [{ value: '4,96', rating: 0.18 }],
+      costs: [{ value: '4,96', rating: 0.15 }],
     },
     {
       name: 'HYUNDAY IONIQ',
@@ -45,7 +45,7 @@ export const carsData = [
       fuel: 'ELECTRICA',
       costs: [
         { value: '3,40', extra: '- ricarica domestica', rating: 0.1 },
-        { value: '8,54', extra: '- col. corrente continua', rating: 0.3 },
+        { value: '8,54', extra: '- col. corrente continua', rating: 0.15, line2:true },
       ],
     },
     {
@@ -60,8 +60,8 @@ export const carsData = [
         'https://i.gaw.to/content/photos/38/92/389207_2020_Toyota_Prius.jpg?1024x640',
       fuel: 'PLUG-IN HYBRID',
       costs: [
-        { value: '3,40', extra: 'ricarica domestica', rating: 0.15 },
-        { value: '8,54', extra: 'col. cor. continua', rating: 0.18 },
+        { value: '6,97', extra: 'ricarica domestica', rating: 0.11 },
+        { value: '8,54', extra: 'col. cor. continua', rating: 0.11, line2:true },
       ],
     },
     {
@@ -79,7 +79,7 @@ export const carsData = [
       costs: [
         {
           value: '6,97',
-          rating: 0.1,
+          rating: 0.18,
         },
       ],
     },
